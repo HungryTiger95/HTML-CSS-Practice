@@ -1,10 +1,13 @@
 #ignore all video files
-.mp4
-.mov
+*.mp4
+*.mov
 
 #ignore all photos
-.jpg
-.JPG
-.gif
-.png
-.PNG
+*.jpg
+*.JPG
+*.gif
+*.png
+*.PNG
+
+#ignore logs
+*.log
