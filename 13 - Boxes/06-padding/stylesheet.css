@@ -24,7 +24,7 @@ div.box-pad {
 
         NOTE: If a width is specified for a box, padding is added onto the width of the box.
 
-        There are two ways to use this property:
+        There are three ways to use this property:
 
             shorthand -> padding: <top> <right> <bottom> <left>
 
@@ -35,6 +35,10 @@ div.box-pad {
                 padding-bottom:
                 padding-left:
 
+            Specifying the top and bottom padding only
+
+                padding: <top and bottom> <left and right>
+                
         NOTE: Padding is not inherited by child elements in the same way that the color value of
         the font-family poperty is; so you need to specify the padding for every element that 
         needs to use it.
